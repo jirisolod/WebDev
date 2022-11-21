@@ -1,0 +1,72 @@
+body {
+    background-color: #213343;
+    color:white;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 40%;
+    max-width: 700px;
+    min-width: 250px;
+    margin: 0 30%;
+}
+
+h1 {
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    margin:0%;
+    padding:0%;
+}
+
+fieldset {
+    padding: 0%;
+    border: none;
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+}
+
+select {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0px;
+    margin: 5px 0 10px 0;
+    display: block;
+    max-width: 700px;
+
+}
+
+button {
+    width: 30%;
+    margin: 0 35%;
+    text-align: center;
+}
+
+input[type=radio], input[type=checkbox]
+{
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    vertical-align: middle;
+}
+.survey-description {
+    text-align: center;
+    width: 70%;
+    margin: 0 15% 30px 15%;
+}
+
+.fieldset-description {
+    margin-bottom: 5px;
+}
+
