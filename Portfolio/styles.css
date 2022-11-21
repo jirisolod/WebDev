@@ -9,7 +9,10 @@
     margin: 0;
     padding: 0;
 }
-
+a {
+    text-decoration: none;
+    color: var(--main-white);
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -117,4 +120,38 @@ width: 400px;
 #projects button:hover {
     background-color: var(--main-red);
     transition: all .2s ease-in;
+}
+
+#contact {
+    height: 100vh;
+    background-color: var(--main-gray);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container {
+    
+}
+
+.contact-header {
+    font-size: 3em;
+    padding: 10px;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-link{
+    display: flex;
+    flex-direction: row;
+    margin: 25px 15px;
+}
+
+.profile-link p {
+    margin-left: 5px;
 }
